@@ -1,0 +1,92 @@
+h2{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #00A5CF;
+    background-color: #7AE582;
+    padding: 10px;
+    border: black 3px solid;
+    border-style: groove;
+    border-radius: 20px;
+}
+
+h3{
+    font-size: 30px;
+    font-style: italic;
+    text-decoration:underline;
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+    background-color:#E0FBFC ;
+    padding: 20px;
+}
+
+html{
+    background-color: #A3D5FF;
+}
+
+
+.recuadroblanco{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:20px;
+    box-sizing: border-box; /*lo ajusta al ancho del contenedor*/
+    font-size: 20px;
+    background-color: #F2F5DE;
+    border: black 3px solid;
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.recuadroblanco:hover{
+    transform: translateY(-10px);
+    transition: all 0.2s ease;
+}
+
+.flexsection{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;/*otra pocion space around o space between*/
+    align-items: center;/*otra opcion es baseline*/
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    gap: 50px;
+    padding: 20px;
+}
+
+.batalla{
+    background-image: url(https://static.wixstatic.com/media/06ec4b_39de9ec709fc4ae694fadb0d1df8e07a~mv2.jpg/v1/fill/w_592,h_296,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/06ec4b_39de9ec709fc4ae694fadb0d1df8e07a~mv2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    padding: 150px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow:1 ;
+}
+
+.batalla:hover{
+    box-shadow: 0 36px 48px #A3D5FF;
+}
+
+.batallaNaval{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/af/Luny_Thomas_Battle_Of_The_Nile_August_1st_1798_At_10pm.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100px;
+    padding: 150px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow:1 ;
+}
+
+.batallaNaval:hover{
+    box-shadow: 0 36px 48px #A3D5FF;
+}

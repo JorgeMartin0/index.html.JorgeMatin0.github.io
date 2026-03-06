@@ -1,0 +1,270 @@
+html{
+    background-color: rgb(80, 78, 78);
+}
+
+
+h2{
+    font-size: 50px;
+    color: #DB3A34;
+    text-align: center;
+}
+
+p{
+    font-size: x-large;
+    text-align: center;
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+    background-color: darkgrey;
+    padding: 20px;
+}
+
+.flexsection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;/*otra pocion space around o space between*/
+    align-items: center;/*otra opcion es baseline*/
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    gap: 50px;
+    padding: 20px;
+}
+
+.opcionA1{
+    background-color: #DB3A34;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 70px;
+    margin-bottom: 40px;
+    border-radius: 200px;
+    border-style: solid;
+    flex-grow:1 ;
+}
+
+.opcionA1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(234, 39, 4);
+    transition: all 0.5s ease;
+}
+
+.opcionB1{
+    background-color: blue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 70px;
+    margin-bottom: 40px;
+    border-radius: 200px;
+    border: solid;
+    flex-grow: 1;
+}
+
+.opcionB1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(0, 149, 255);
+    transition: all 0.5s ease;
+}
+
+.opcionA2{
+    background-color: #DB3A34;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 70px;
+    margin-bottom: 40px;
+    border-radius: 200px;
+    border-style: solid;
+    flex-grow:2 ;
+}
+
+.opcionA2:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(234, 39, 4);
+    transition: all 0.5s ease;
+}
+
+.opcionB2{
+    background-color: blue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 70px;
+    margin-bottom: 40px;
+    border-radius: 200px;
+    border: solid;
+    flex-grow: 2;
+}
+
+.opcionB2:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(0, 149, 255);
+    transition: all 0.5s ease;
+}
+
+.opcionA3{
+    background-color: #DB3A34;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 70px;
+    margin-bottom: 40px;
+    border-radius: 200px;
+    border-style: solid;
+    flex-grow:3 ;
+}
+
+.opcionA3:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(234, 39, 4);
+    transition: all 0.5s ease;
+}
+
+.opcionB3{
+    background-color: blue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 70px;
+    margin-bottom: 40px;
+    border-radius: 200px;
+    border: solid;
+    flex-grow: 3;
+}
+
+.opcionB3:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(0, 149, 255);
+    transition: all 0.5s ease;
+}
+
+.opcionA4{
+    background-color: #DB3A34;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 70px;
+    margin-bottom: 40px;
+    border-radius: 200px;
+    border-style: solid;
+    flex-grow:4 ;
+}
+
+.opcionA4:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(234, 39, 4);
+    transition: all 0.5s ease;
+}
+
+.opcionB4{
+    background-color: blue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 70px;
+    margin-bottom: 40px;
+    border-radius: 200px;
+    border: solid;
+    flex-grow: 4;
+}
+
+.opcionB4:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(0, 149, 255);
+    transition: all 0.5s ease;
+}
+
+.opcionA5{
+    background-color: #DB3A34;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 70px;
+    margin-bottom: 40px;
+    border-radius: 200px;
+    border-style: solid;
+    flex-grow:5 ;
+}
+
+.opcionA5:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(234, 39, 4);
+    transition: all 0.5s ease;
+}
+
+.opcionB5{
+    background-color: blue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 70px;
+    margin-bottom: 40px;
+    border-radius: 200px;
+    border: solid;
+    flex-grow: 5;
+}
+
+.opcionB5:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(0, 149, 255);
+    transition: all 0.5s ease;
+}
+
+.opcionA6{
+    background-color: #DB3A34;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 70px;
+    margin-bottom: 40px;
+    border-radius: 200px;
+    border-style: solid;
+    flex-grow:6 ;
+}
+
+.opcionA6:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(234, 39, 4);
+    transition: all 0.5s ease;
+}
+
+.opcionB6{
+    background-color: blue;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding: 70px;
+    margin-bottom: 40px;
+    border-radius: 200px;
+    border: solid;
+    flex-grow: 6;
+}
+
+.opcionB6:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(0, 149, 255);
+    transition: all 0.5s ease;
+}
+
+.fin{
+    background-color: rgb(14, 238, 63);
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: black 3px solid;
+    border-radius: 30px;
+}
+
+.fin:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(0, 255, 85);
+    transition: all 0.5s ease;
+}

@@ -1,0 +1,80 @@
+h2{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #00A5CF;
+    background-color: #7AE582;
+    padding: 10px;
+    border: black 3px solid;
+    border-style: groove;
+    border-radius: 20px;
+}
+
+h3{
+    font-size: 30px;
+    font-style: italic;
+    text-decoration:underline;
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+    background-color:#E0FBFC ;
+    padding: 20px;
+}
+
+html{
+    background-color: #A3D5FF;
+}
+
+.recuadroblanco{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:20px ;
+    box-sizing: border-box; /*lo ajusta al ancho del contenedor*/
+    font-size: 20px;
+    background-color: #F2F5DE;
+    border: black 3px solid;
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.recuadroblanco:hover{
+    transform: translateY(-10px);
+    transition: all 0.2s ease;
+}
+
+.sociedadpaleolitico{
+    background-image: url(https://talayots.es/wp-content/uploads/gente-del-paleolitico-desplazandose-de-cueva-en-cueva-descubre-como.jpg);
+    margin:auto;
+    margin-top: 30px;
+    padding: auto;
+    height: 400px;
+    width: 80%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.sociedadpaleolitico:hover{
+    box-shadow: 0 36px 48px #A3D5FF;
+}
+
+.sociedadneolitico{
+    background-image: url(https://neolitico.org/wp-content/uploads/2023/12/Avances-en-la-Metalurgia.jpg);
+    background-size: 850px;
+    margin:auto;
+    margin-top: 30px;
+    padding: auto;
+    height: 400px;
+    width: 80%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.sociedadneolitico:hover{
+    box-shadow: 0 36px 48px #A3D5FF;
+}

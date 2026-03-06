@@ -1,0 +1,575 @@
+h1{
+    color: #0F110C;
+    font-size: 500%; /*tamaño de la letra*/
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #8EE3EF;
+    padding: 50px 50px 50px 120px;
+    border: black 3px solid;
+    border-style: solid;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 30px;
+    color: #DB3A34;
+}
+
+h3{
+    font-size: 30px;
+    font-style: italic;
+    text-decoration:underline;
+}
+
+.barralateralizq{
+    height: 40%;
+    width: 70px;
+    border: inset 3px  rgb(0, 255, 166);
+    border-radius: 30px;
+    background-color:#E0FBFC;
+    text-align: center;
+    text-orientation: upright;
+    padding: 20px;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    position: fixed;
+    top: 0;
+    left:0;
+}
+
+.barralateralizq:hover{
+    transform: translateY(100%);
+    box-shadow: 0 24px 36px rgb(0, 255, 166);
+    transition: all 2s ease;
+}
+
+.barralateraldrcha{
+    height: 40%;
+    width: 70px;
+    border: inset 3px  rgb(0, 255, 166);
+    border-radius: 30px;
+    background-color:#E0FBFC;
+    text-align: center;
+    text-orientation: upright;
+    padding: 20px;
+    font-size: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.barralateraldrcha:hover{
+    transform: translateY(-100%);
+    box-shadow: 0 24px 36px rgb(0, 255, 166);
+    transition: all 2s ease;
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+    background-color:#E0FBFC ;
+    padding: 20px;
+}
+
+html{
+    background-color: grey;
+}
+
+.caza{
+    background-image: url(https://www.muyinteresante.com/wp-content/uploads/sites/5/2022/11/08/636a2d7ae4d69.jpeg?resize=195);
+    background-size: 850px;
+    margin:auto;
+    padding: auto;
+    height: 400px;
+    width: 80%;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: 5px ridge;
+}
+
+.caza:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(0, 255, 166);
+    transition: all 0.5s ease;
+}
+
+.fuego{
+    background-image: url(https://i.ytimg.com/vi/3UkXE4Q-tFc/maxresdefault.jpg);
+    background-size: 850px;
+    margin:auto;
+    margin-top: 40px;
+    padding: auto;
+    height: 400px;
+    width: 80%;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: 5px ridge;
+}
+
+.fuego:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(0, 255, 166);
+    transition: all 0.5s ease;
+}
+
+.coliseo{
+    background-image: url(https://www.enroma.com/wp-content/uploads/2021/07/Coliseo-Romano.jpg);
+    background-size: 850px;
+    margin:auto;
+    padding: auto;
+    height: 400px;
+    width: 80%;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: 5px ridge;
+}
+
+.coliseo:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(0, 255, 166);
+    transition: all 0.5s ease;
+}
+
+.piramides{
+    background-image: url(https://supercurioso.com/wp-content/uploads/2015/04/como-se-construyeron-las-piramides-de-egipto.jpg);
+    background-size: 850px;
+    margin:auto;
+    margin-top: 40px;
+    padding: auto;
+    height: 400px;
+    width: 80%;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: 5px ridge;
+}
+
+.piramides:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(0, 255, 166);
+    transition: all 0.5s ease;
+}
+
+.batalla{
+    background-image: url(https://img.freepik.com/premium-photo/fantasy-medieval-battle-digital-illustration_968517-132338.jpg?w=996);
+    background-size: 850px;
+    margin:auto;
+    margin-top: 40px;
+    padding: auto;
+    height: 400px;
+    width: 80%;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: 5px ridge;
+}
+
+.batalla:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(0, 255, 166);
+    transition: all 0.5s ease;
+}
+
+.reyes{
+    background-image: url(https://khronoshistoria.com/wp-content/uploads/2018/10/monarquia-medieval2.jpg);
+    background-size: 850px;
+    margin:auto;
+    margin-top: 40px;
+    padding: auto;
+    height: 400px;
+    width: 80%;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: 5px ridge;
+}
+
+.reyes:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(0, 255, 166);
+    transition: all 0.5s ease;
+}
+
+.revolucion{
+    background-image: url(https://maken.wikiwijs.nl/generated/s960x720_e18eb46ac0df84e1328e98efeb15c0ed362f88a0.jpg);
+    background-size: 850px;
+    margin:auto;
+    margin-top: 40px;
+    padding: auto;
+    height: 400px;
+    width: 80%;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: 5px ridge;
+}
+
+.revolucion:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(0, 255, 166);
+    transition: all 0.5s ease;
+}
+
+.barcos{
+    background-image: url(https://ustaliy.ru/wp-content/uploads/2023/06/vyyasnite-svoyu-rol-na-piratskom-korable-scaled.webp);
+    background-size: 850px;
+    margin:auto;
+    margin-top: 40px;
+    padding: auto;
+    height: 400px;
+    width: 80%;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    border: 5px ridge;
+}
+
+.barcos:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(0, 255, 166);
+    transition: all 0.5s ease;
+}
+
+
+.flexsection{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;/*otra pocion space around o space between*/
+    align-items: center;/*otra opcion es baseline*/
+    border: #8EE3EF 8px dotted;
+    border-radius: 30px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+    gap: 40px;
+    padding: 40px;
+}
+
+.resumen{
+    background-color: #8EE3EF;
+    text-align: center;
+    font-size: 60px;
+    font-family: monospace;
+    color: #000000;
+    padding: 20px;
+    flex-basis: 1000px;
+    border-radius: 30px;
+    border: solid 5px;
+    flex-grow: 1;
+    }
+
+.caja1{
+    background-color: #8EE3EF;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    flex-basis: 300px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow: 2;
+    }
+
+.caja1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(51, 164, 199);
+    transition: all 0.5s ease;
+}
+    
+.caja2{
+    background-color: #8EE3EF;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    flex-basis: 300px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow: 2;
+    }
+
+.caja2:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(51, 164, 199);
+    transition: all 0.5s ease;
+}
+
+    
+.caja3{
+    background-color: #8EE3EF;
+    text-align: inset;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    flex-basis: 300px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow: 3;
+    }
+
+.caja3:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(51, 164, 199);
+    transition: all 0.5s ease;
+}
+    
+.caja4{
+    background-color: #8EE3EF;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    flex-basis: 300px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow: 3;
+    }
+
+.caja4:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(51, 164, 199);
+    transition: all 0.5s ease;
+}
+
+.caja5{
+    background-color: #8EE3EF;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    flex-basis: 300px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow: 4;
+    }
+
+.caja5:hover{
+     transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(51, 164, 199);
+    transition: all 0.5s ease;
+}
+
+.caja6{
+    background-color: #8EE3EF;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    flex-basis: 300px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow: 4;
+    }
+
+.caja6:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(51, 164, 199);
+    transition: all 0.5s ease;
+}
+
+.caja7{
+    background-color: #8EE3EF;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    flex-basis: 300px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow: 5;
+    }
+
+.caja7:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(51, 164, 199);
+    transition: all 0.5s ease;
+}
+
+.caja8{
+    background-color: #8EE3EF;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    flex-basis: 300px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow: 5;
+    }
+
+.caja8:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(51, 164, 199);
+    transition: all 0.5s ease;
+}
+
+.modoNoche{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;/*otra pocion space around o space between*/
+    align-items: center;/*otra opcion es baseline*/
+    border:grey 8px dotted;
+    border-radius: 30px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+    gap: 40px;
+    padding: 40px;
+}
+
+.modoNoche2{
+    width: 80%;
+    margin: auto;
+    background-color:black ;
+    padding: 20px;
+}
+
+.Resumen{
+    background-color: rgb(111, 111, 111);
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: monospace;
+    padding: 20px;
+    flex-basis: 1000px;
+    border-radius: 30px;
+    border: solid 5px;
+    flex-grow: 1;
+}
+
+.Caja1{
+    background-color: rgb(111, 111, 111);
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    flex-basis: 300px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow: 2;
+}
+
+.Caja1:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(51, 164, 199);
+    transition: all 0.5s ease;
+}
+
+
+.Caja2{
+    background-color: rgb(111, 111, 111);
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    flex-basis: 300px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow: 2;
+}
+
+.Caja2:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(51, 164, 199);
+    transition: all 0.5s ease;
+}
+
+.Caja3{
+    background-color: rgb(111, 111, 111);
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    flex-basis: 300px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow: 3;
+}
+
+.Caja3:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(51, 164, 199);
+    transition: all 0.5s ease;
+}
+
+.Caja4{
+    background-color: rgb(111, 111, 111);
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    flex-basis: 300px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow: 3;
+}
+
+.Caja4:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(51, 164, 199);
+    transition: all 0.5s ease;
+}
+
+.Caja5{
+    background-color: rgb(111, 111, 111);
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    flex-basis: 300px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow: 4;
+}
+
+.Caja5:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(51, 164, 199);
+    transition: all 0.5s ease;
+}
+
+.Caja6{
+    background-color: rgb(111, 111, 111);
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    flex-basis: 300px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow: 4;
+}
+
+.Caja6:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(51, 164, 199);
+    transition: all 0.5s ease;
+}
+
+.Caja7{
+    background-color: rgb(111, 111, 111);
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    flex-basis: 300px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow: 5;
+}
+
+.Caja7:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(51, 164, 199);
+    transition: all 0.5s ease;
+}
+
+.Caja8{
+    background-color: rgb(111, 111, 111);
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    flex-basis: 300px;
+    border-radius: 30px;
+    border: inset;
+    flex-grow: 5;
+}
+
+.Caja8:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 24px 36px rgb(51, 164, 199);
+    transition: all 0.5s ease;
+}
